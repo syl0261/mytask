@@ -1,0 +1,205 @@
+.direction {
+    margin: 1% auto;
+    font-size: 1em;
+    color: grey;
+    height: 60px;
+    line-height: 60px;
+    border-top: solid gainsboro 1px;
+}
+
+.direction a {
+    padding-left: 2em;
+}
+
+.direction a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.direction a:hover {
+    background-color: #29b078;
+    color: #ffffff;
+}
+
+.content {
+    width: 90%;
+    margin: 1% auto;
+}
+
+/*盒子开始*/
+
+#qd, #hd, #yw, #yd {
+
+    line-height: 5em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: groove #ffffff 1px;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+    width: 380px;
+}
+
+.back {
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    transition: transform 1s;
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    background-color: #000000;
+    color: white;
+}
+
+.card:hover .back {
+    transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    opacity: 0.5;
+}
+
+.back h3 {
+    padding-top: 4em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.back p {
+    padding: 1em 2em;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.panel {
+    margin: auto;
+}
+
+.panel-heading {
+    background-color: #ffffff !important;
+    height: 175px;
+}
+
+.heads {
+    width: 36.5%;
+    float: left;
+    padding: 10px 7px 17px 10px;
+}
+
+.abstract {
+    width: 56.6%;
+    float: right;
+    padding: 18px 5px 18px 10px;
+    overflow: hidden;
+    font-size: 0.8em;
+
+}
+
+.abstract span {
+    display: block;
+    padding: 18px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.twoline {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 68px;
+    overflow: hidden;
+    font-size: 0.9em;
+    color: darkgray;
+}
+
+.star {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url("../images/star.png") no-repeat;
+}
+
+.twoline ul, .pay ul, .panel-body, .panel-heading {
+    padding: 0;
+    margin: 0;
+}
+
+.twoline li {
+    list-style-type: none;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 50%;
+    border: solid gainsboro 1px;
+}
+
+.payment {
+    float: left;
+    width: 40%;
+    height: 96px;
+    line-height: 96px;
+    border: solid gainsboro 1px;
+    font-size: 0.9em;
+    color: darkgray;
+}
+
+.pay {
+    float: right;
+    width: 60%;
+    font-size: 0.8em;
+}
+
+.fontleft {
+    padding-left: 24px;
+    float: left;
+}
+
+.fontright {
+    padding-right: 10px;
+    float: right;
+}
+
+.pay li {
+    list-style-type: none;
+    height: 32px;
+    line-height: 32px;
+    border: solid gainsboro 1px;
+}
+
+.numberp {
+    width: 100%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: solid gainsboro 1px;
+    font-weight: bold;
+}
+
+.hint {
+    width: 100%;
+    float: left;
+    height: 40px;
+    line-height: 38px;
+    border-bottom: solid gainsboro 1px;
+    font-size: 0.5em;
+    color: darkgray;
+}
+
+/*盒子结束*/

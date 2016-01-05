@@ -1,0 +1,132 @@
+
+.cooperation {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #000000;
+    border-bottom: 1px solid gainsboro;
+}
+
+.sidenav {
+    float: left;
+    width: 22%;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+}
+
+.sidenav ul {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    list-style-image: url("../images/oround1.png");
+    list-style-position: inside;
+}
+
+.sidenav li {
+    padding-left: 35%;
+    height: 4em;
+    line-height: 4em;
+    text-align: left;
+    font-size: 0.9em;
+    color: #29b078;
+}
+
+.sidenav li:hover {
+    list-style-image: url("../images/oround2.png");
+}
+
+.introduce {
+    float: right;
+    width: 73%;
+    margin-left: 1.6%;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 10%;
+}
+
+.introduce ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.introduce li {
+    width: 80%;
+    margin: auto;
+    list-style-type: none;
+    padding-top: 5%;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+.abstract {
+    width: 100%;
+    padding: 1% 10%;
+    border-bottom: 1px solid gainsboro;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+
+.logs {
+    float: left;
+    width: 20%;
+    padding-top: 1.5em;
+}
+
+.abstract span {
+    float: right;
+    width: 80%
+}
+
+/*响应式布局*/
+@media screen and (max-width: 768px) {
+    .sidenav {
+        width: 100%
+    }
+
+    .sidenav li {
+        float: left;
+        padding-left: 2%;
+    }
+
+    .introduce {
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    .logs {
+        width: 100%
+    }
+
+    .abstract span {
+        float: none;
+    }
+}
+
+/*@media screen and(max-width: 768px){
+    .abstract{
+        height:8%;
+    }
+    .abstract span{
+        width:100%;
+    }
+    .sidenav{
+        width:100%
+    }
+    .sidenav li{
+        float:left;
+        padding-left:2%;
+    }
+    .introduce{
+        margin:1% 0;
+        width:100%;
+    }
+
+}*/
