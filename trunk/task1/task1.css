@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 100vmin;
+    height: 100vmin;
+}
+
+#main {
+    padding: 15vmin 15vmin 16vmin 16vmin;
+    height: 100%;
+    background-color: black;
+}
+
+.box {
+    width: 20vmin;
+    height: 20vmin;
+    overflow: hidden;
+    margin: 2vmin 2vmin 1vmin 1vmin;
+    float: left;
+    border-radius: 3vmin;
+    background-color: orange;
+}
