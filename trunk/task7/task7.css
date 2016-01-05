@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+    font-family:" Microsoft YaHei",sans-serif;
+}
+.head{
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+}
+.head p{
+    width: 55%;
+    height: 2.5em;
+    text-align: center;
+    margin-top: 1%;
+    float: left;
+}
+.right{
+    width: 30%;
+    margin-top: 1%;
+    float: right;
+}
+.imgs{
+    width: 100%;
+}
+/*菜单*/
+.nanv{
+    width: 100%;
+    overflow: hidden;
+    background-color: #29b078;
+}
+.nanv ul{
+    width: 40%;
+   padding:0 8% 0 62%;
+}
+.nanv li{
+    height: 4.3em;
+    line-height: 4.3em;
+    padding: 0 1.5em;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.nanv a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.nanv li:hover{
+    border-bottom: #ffffff solid 3px;
+}
+.log{
+    float: left;
+    width: 20%;
+    margin-left:18%;
+    padding-top: 1.5%;
+}
+.log img{
+    width:100%
+}
+/*菜单2*/
+.subnav{
+    display: none;
+    float:right;
+}
+#sub{
+    display:none;
+    text-align: center;
+    background-color: #29b078;
+}
+#sub a:link{
+    text-decoration:none;
+    color:white;
+}
+
+#sub li{
+    height: 2em;
+    line-height: 2em;
+    border-bottom: #ffffff solid 1px;
+    width: 100%;
+}
+/*头部完成*/
+.main{
+    margin: 0 auto;
+    background-color: #fafafa;
+    width: 100%;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 37.5em;
+    line-height: 37.5em;
+}
+.banner{
+    position: absolute;
+    width:100%;
+    z-index: 1;
+}
+.banner img{
+    width: 100%;
+}
+.rarro{
+   width: 10%;
+   top: 0;
+   right: 0;
+   position: absolute;
+   z-index: 2;
+}
+.rarro img{
+    width: 20%;
+    padding-right: 10%;
+}
+.larro{
+    padding-left:10% ;
+    width: 10%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+.larro img{
+    width: 20%;
+}
+/*轮换图完成*/
+.middle{
+    width: 100%;
+}
+.title{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.one{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+}
+.one li{
+    float: left;
+    width:23%;
+    height: 15em;
+    padding: 0 1%;
+    font-size: 0.6em;
+    color: gray;
+    text-align: center;
+}
+.one h3{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+}
+.one p{
+    text-align:left;
+    padding-top: 2em;
+    padding-left:2em;
+}
+.line span{
+    color: #29b078;
+}
+.line{
+    padding-left: 3%;
+    float: right;
+    width: 20%;
+    display:inline-block ;
+    border-left: dashed gray 1px;
+    text-align: left;
+    height: 10em;
+    line-height: 2em;
+    font-size: 0.9em;
+    color: gray;
+}
+
+/*two开始*/
+.two{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+}
+.two li{
+    float: left;
+    width:25%;
+    padding-top: 2%;
+    font-size: 0.6em;
+    color: gray;
+}
+.two img{
+   padding-top: 1em;
+    padding-right: 1em;
+    float: right;
+}
+.num{
+    display: inline-block;
+    float: left;
+    width: 6.2em;
+    height: 6.2em;
+    line-height: 6.2em;
+    text-align: center;
+    background: url("images/ground0.png") no-repeat;
+}
+.state{
+    float: left;
+    width: 9em ;
+    display: inline-block;
+    text-align: left;
+    padding-top: 1.3em;
+    padding-left: 1em;
+}
+/*three开始*/
+.three{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+}
+.three li{
+    float: left;
+    width: 23% ;
+    margin: 1% 1%;
+    background-color: #ffffff;
+}
+.portrait{
+   clear: both;
+    width: 50%;
+    margin:0 auto;
+}
+.three img{
+   width: 100%;
+}
+.introduce{
+    display: inline-block;
+    width: 70%;
+    padding:10px 15%;
+    text-align: left;
+    line-height: 2em;
+    font-size: 0.7em;
+    color: darkgray;
+}
+/*for开始*/
+.fore{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+}
+.fore li{
+    float: left;
+    width: 20%;
+}
+.fore img{
+    width: 100%;
+    overflow: hidden;
+}
+/*主体完成*/
+.foot{
+    width: 100%;
+}
+.foot ul{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+}
+.foot li{
+    float: left;
+    width: 10%;
+    list-style-type: disc;
+}
+.about{
+    width: 76%;
+    padding: 0 12%;
+    margin: 0;
+    background-color: #29b078;
+    overflow: hidden;
+    color: #ffffff;
+}
+.big{
+    float: left;
+    font-size: 1.2em;
+    width: 100%;
+}
+.lefoot{
+    display: inline-block;
+    float: left;
+    width: 30% ;
+    line-height: 5em;
+}
+.lefoot li{
+    float: left;
+    width: 100%;
+    line-height: 20px;
+}
+.website{
+    float: left;
+    width: 60%;
+    line-height: 3em;
+}
+.website li{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+.Qrcode{
+    float: left;
+    width: 10%;
+    padding-top: 3em;
+}
+.copyright{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+/*页尾完成*/
+/*响应式布局*/
+
+@media screen and (max-width:1280px){
+    .wrap{
+        font-size:0.8em;
+    }
+
+    .one,.two,.three,.fore{
+        width: 90%;
+        margin: 1% auto;
+    }
+    .state{width:10em;}
+
+}
+@media screen and (max-width:1180px){
+    .two img{
+        display:none
+    }
+}
+@media screen and (max-width:1024px){
+    .wrap {
+        font-size: 0.6em;
+    }
+    .nanv ul{
+        display:none;
+    }
+    .topnav{
+        display: block;
+    }
+    .top{
+        height:30em;
+        line-height:30em;
+    }
+}
+@media screen and (max-width: 960px) {
+    .wrap {
+        font-size: 0.4em;
+    }
+    .top{
+        height:25em;
+        line-height:25em;
+    }
+    .one li{
+        width:46%;
+    }
+    .one p{
+        display:inline-block;
+        width:50%;
+        margin:0,auto;
+    }
+    .line{
+        width: 35%;
+        padding-left:5%;
+    }
+    .two li{
+        width:50%;
+        height:10em;
+    }
+    .two img{
+        display: none;
+    }
+    .num{
+        margin-left:30%;
+    }
+    .state{
+        width:11em;
+    }
+    .three li{
+        width: 46%;
+        margin:1% 2%;
+    }
+    .portrait{
+        width: 30%;
+    }
+    .lefoot,.fore li{
+        width:50% ;
+    }
+    .fore img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px){
+    .log{
+        margin-left: 0;
+    }
+    .log img{
+        width: auto;
+    }
+    .top{
+        height:20em;
+        line-height:20em;
+    }
+    .one,.two,.three{
+        width:100%;
+        margin:0;
+    }
+    .state{
+        width:10em;
+    }
+    .links{
+        display:none;
+    }
+
+}
+@media screen and (max-width:640px){
+    .one li{width: 46%}
+    .line{
+        width: 23%;
+    }
+    .two li{
+        width:100%;
+
+    }
+    .state{
+        width:15em;
+    }
+    .three li{
+        width: 50%;
+        margin:1% 25%
+    }
+}
+@media screen and (max-width:540px){
+    .line{
+        width:30%;
+        padding-left:5%;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .top{
+        display: none;
+    }
+    .middle{
+        padding-top: 10%;
+    }
+    .one li{
+        width:100%
+    }
+    .line{
+        width:60%;
+        padding-left:10%;
+    }
+    .num{
+        margin-left:20%;
+    }
+    .three li{
+        width: 70%;
+        margin:1% 15%
+    }
+    .fore li{
+        width: 90%;
+        margin:1% 10%
+    }
+    .lefoot,.website,.Qrcode{
+        width: 100%;
+    }
+    @media screen and (max-width: 360px){
+        .wrap{
+            width: 360px;
+        }
+    }
+}

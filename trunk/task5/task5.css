@@ -1,0 +1,123 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family:" Microsoft YaHei",sans-serif;
+}
+#menu{
+    position: fixed;
+    top:0;
+    left:-70%;
+    width: 70%;
+    height: 100%;
+    font-size: 2em;
+    color: deepskyblue;
+
+}
+.sub{
+    height: 10%;
+    width: 100%;
+    border-bottom: darkgray solid 1px;
+    clear: both;
+}
+
+
+.left{
+    float: left;
+    margin: 0.6% 2%;
+}
+.right{
+    float: right;
+    margin: 0.6% 2%;
+}
+#container{
+    position:fixed;
+    top:0;
+    left:0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: deepskyblue;
+}
+.header img{
+    float: left;
+}
+
+.content{
+    position: absolute;
+    top:10%;
+    width: 100%;
+    height: 90%;
+    background-color: gainsboro;
+}
+.return{
+    position: relative;
+    width: 80%;
+    margin: 2% 10%;
+    border: darkgray solid 1px;
+    background-color: white;
+}
+.return p{
+    text-align: center;
+    font-size: 2em;
+    color: darkgray;
+}
+.arrow{
+   position: absolute;
+   top:25%;
+    right: 1%;
+}
+.box{
+    width: 80%;
+    margin: 2% 10%;
+    border: darkgray solid 1px;
+    text-align: center;
+    background-color: white;
+}
+.title{
+    border-bottom: orange solid 1px;
+    font-size: 2.3em;
+    color: orange;
+}
+.box h1{
+    width: 80%;
+    margin: 2% 5%;
+    padding: 2% 5%;
+    font-size: 2em;
+    color: white;
+    background-color: deepskyblue;
+}
+.menu p{
+font-size: 1em;
+color: darkgray;
+}
+@media screen and (min-width: 960px) {
+    html {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 540px)and(max-width: 959px) {
+    html {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 539px)and(min-width: 480) {
+    html {
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size:0.4em;
+    }
+}

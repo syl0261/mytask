@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vmin;
+    max-width: 1024px;
+    font-family:" Microsoft YaHei",sans-serif;
+}
+.wrap{
+    margin: 0 auto;
+    width: 100vmin;
+    background-color: deepskyblue;
+}
+.top{
+    width: 100vmin;
+    height: 10vmin;
+}
+.left{
+    width: 6vmin;
+    float: left;
+    margin-top: 1vmin;
+    margin-left: 3vmin;
+}
+.right{
+    width: 6vmin;
+    float: right;
+    margin-top: 1vmin;
+    margin-right: 3vmin;
+}
+.top h1{
+    padding-top: 2.5vmin;
+    text-align: center;
+    font-size: 5vmin;
+    color: white;
+}
+.content{
+    width: 100vmin;
+}
+.banner{
+    width: 100vmin;
+    height:10vmin;
+    background-color: rgba(200,200,255,0.5);
+}
+.banner p{
+    float: left;
+    padding:3.5vmin 10vmin;
+    text-align: left;
+    color: #464646;
+    font-size: 3vmin;
+}
+.banner img{
+    width: 8vmin;
+    cursor: pointer;
+    float:right;
+    margin: 1vmin 3vmin;
+}
+
+.triangle{
+    position: relative;
+    left:4vmin;
+    bottom: -10vmin;
+    width:0;
+    height:0;
+    border-right: 1.5vmin solid  transparent;
+    border-left: 1.5vmin solid transparent;
+    border-top: 2vmin solid rgba(200,200,255,0.5);
+}
+.note{
+    width: 100vmin;
+    float: left;
+    padding-left:6vmin;
+     line-height: 8vmin;
+    font-size: 2.5vmin;
+    color: white;
+}
+.container{
+    padding-top: 1vmin;
+    width: 100vmin;
+    overflow:hidden;
+}
+.box{
+    float: left;
+    margin: 6vmin 6vmin;
+    width: 20vmin;
+    height: 20vmin;
+    border: 0.65vmin solid white;
+    text-align: center;
+}
+.box-top{
+    height:16vmin;
+    line-height: 16vmin;
+    font-size: 4vmin;
+    background-color: sandybrown;
+}
+.box-mid{
+    height:4vmin;
+    line-height: 4vmin;
+    font-size: 3vmin;
+    color: white;
+    background-color: darkolivegreen;
+}
+.sprite{
+    margin-top: 1vmin;
+    padding: 2vmin;
+    background: url("images/0.png") no-repeat ;
+}
+.sprite li{
+    display: inline-block;
+    list-style-type: none;
+}
+#a {
+    background-position: 0 0;
+}
+
+#b {
+    background-position: -23.33% 0;
+}
+
+#c {
+    background-position: -46.67% 0;
+
+}
+
+#d {
+    background-position: -70% 0;
+}
+.footer{
+    width: 100vmin;
+    position: fixed;
+    bottom: 0;
+    background-color: deepskyblue;
+}
+.end{
+    width: 80vmin;
+    height: 10vmin;
+    line-height: 10vmin;
+    margin: 5vmin 10vmin 8vmin;
+    text-align: center;
+    font-size: 5vmin;
+    color: white;
+    background-color: orange;
+}

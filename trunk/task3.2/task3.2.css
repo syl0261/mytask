@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 540px;
+    font-family:"Hiragino Sans GB W3" ;
+    color: white;
+}
+#top{
+    margin: 0 auto;
+    width: 100%;
+    height: 10vmin;
+    overflow: hidden;
+    background-color: black;
+}
+#main{
+    width: 100%;
+    height: 90vmin;
+    background-color: deepskyblue;
+}
+#top h1{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 2em;
+}
+#top h2{
+    float: left;
+    padding-top: 3%;
+    font-size: 1.5em;
+}
+.return{
+    width: 4%;
+   float: left;
+}
+.more{
+    width: 7%;
+    float: right;
+    padding-top: 2%;
+    }
+.back{
+    width: 10%;
+    margin-left: 3%;
+}
+.log{
+    width: 32%;
+    display: block;
+    margin:0 auto;
+    text-align:center;
+}
+#main p{
+    margin: 3% 30% 3%;
+}
+.box1{
+    width: 15%;
+    float: left;
+    margin-left: 20%;
+}
+.box2{
+    width: 15%;
+    float: right;
+    margin-right: 20%;
+}
+.b1{
+    width: 100%;
+}
+.b2{
+    width: 100%;
+}
+@media screen and (max-width: 540px) {
+    html {
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 539px)and(min-width: 480) {
+        html {
+            font-size: 0.8em;
+        }
+    }
+@media screen and (min-width: 480px) {
+    html {
+        font-size:1em;
+    }
+}

@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+    font-family:" Microsoft YaHei",sans-serif;
+}
+.head{
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+}
+.head p{
+    width: 55%;
+    height: 2.5em;
+    text-align: center;
+    margin-top: 1%;
+    float: left;
+}
+.right{
+    width: 30%;
+    margin-top: 1%;
+    float: right;
+}
+.imgs{
+    width: 100%;
+}
+/*菜单1*/
+.nanv{
+    width: 100%;
+    overflow: hidden;
+    background-color: #29b078;
+}
+.nanv ul{
+    width: 40%;
+    padding:0 8% 0 62%;
+}
+.nanv li{
+    height: 4.3em;
+    line-height: 4.3em;
+    padding: 0 1.5em;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.nanv a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.nanv li:hover{
+    border-bottom: #ffffff solid 3px;
+}
+.log{
+    float: left;
+    width: 20%;
+    margin-left:18%;
+    padding-top: 1.5%;
+}
+.log img{
+    width:100%
+}
+/*菜单2*/
+.topnav{
+    display: none;
+    float:right;
+}
+#sub{
+    display:none;
+    text-align: center;
+    background-color: #29b078;
+}
+#sub a:link{
+    text-decoration:none;
+    color:white;
+}
+
+#sub li{
+    height: 2em;
+    line-height: 2em;
+    border-bottom: #ffffff solid 1px;
+    width: 100%;
+}
+
+/*头部完成*/
+.main{
+    background-color: #fafafa;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15%;
+}
+.main h2{
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 90%;
+    margin:0 5%;
+    border-bottom: solid gainsboro 1px;
+
+}
+.crumbs{
+    width: 90%;
+    margin:1% auto;
+    height: 80px;
+    line-height: 80px;
+    font-size: 0.9em;
+}
+.crumbs a{
+    text-decoration:none;
+}
+.crumbs a:visited{
+    color: #29b078;
+}
+.direction{
+    width: 90%;
+    margin:1% auto;
+    font-size: 1em;
+    color: grey;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: groove #ffffff 2px;
+    border-top: solid gainsboro 1px;
+}
+.direction a:link{
+    text-decoration: none;
+    color: black;
+}
+.direction a:hover{
+    background-color: #29b078;
+    color: #ffffff;
+}
+.content{
+    width: 90%;
+    margin:1% auto;
+}
+/*盒子开始*/
+.box{
+    float: left;
+    width: 380px;
+    border: solid gainsboro 1px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin:46px 6px 0 6px;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.oneline{
+    width: 100%;
+    height: 175px;
+    border: solid gainsboro 1px;
+}
+.heads{
+    width:36.5%;
+    float: left;
+    padding:17px 8px 17px 10px;
+}
+.abstract{
+    width: 56.6%;
+    float: right;
+    padding:18px 8px 18px 0;
+    overflow: hidden;
+    font-size: 1em;
+}
+.abstract span{
+    display:block;
+    padding:18px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.twoline{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height:72px;
+    overflow: hidden;
+    font-size: 0.9em;
+    color: darkgray;
+}
+.star{
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url("images/star.png") no-repeat;
+}
+.twoline li{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 49.47%;
+    border: solid gainsboro 1px;
+}
+.payment{
+    float: left;
+    width: 39.47%;
+    height: 100px;
+    line-height: 100px;
+    border: solid gainsboro 1px;
+    font-size: 0.9em;
+    color: darkgray;
+}
+.pay{
+    float: right;
+    width: 60%;
+    font-size: 0.8em;
+}
+.fontleft{
+    padding-left: 24px;
+    float: left;
+}
+.fontright{
+    padding-right: 10px;
+    float: right;
+}
+.pay li{
+    height: 32px;
+    line-height: 32px;
+    border: solid gainsboro 1px;
+}
+.numberp{
+    width: 100%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: solid gainsboro 1px;
+    font-weight: bold;
+}
+.hint{
+    width: 100%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: solid gainsboro 1px;
+    font-size: 0.9em;
+    color: darkgray;
+}
+/*盒子结束*/
+/*主体完成*/
+.foot{
+    width: 100%;
+}
+.foot ul{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+
+}
+.foot li{
+    float: left;
+    width: 10%;
+    list-style-type: disc;
+}
+.about{
+    width: 76%;
+    padding: 0 12%;
+    margin: 0;
+    background-color: #29b078;
+    overflow: hidden;
+    color: #ffffff;
+}
+.big{
+    float: left;
+    font-size: 1.2em;
+    width: 100%;
+}
+.lefoot{
+    display: inline-block;
+    float: left;
+    width: 30% ;
+    line-height: 5em;
+}
+.lefoot li{
+    float: left;
+    width: 100%;
+    line-height: 20px;
+}
+.website{
+    float: left;
+    width: 60%;
+    line-height: 3em;
+}
+.website li{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+.Qrcode{
+    float: left;
+    width: 10%;
+    padding-top: 3em;
+}
+.copyright{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+/*页尾完成*/
+/*响应式布局*/
+@media screen and (max-width: 1330px){
+    .box{
+        margin:46px 1% 0 10%;
+
+    }
+}
+@media screen and (max-width: 1280px){
+    .box{
+        margin:46px 4% 0 3.5%;
+
+    }
+}
+@media screen and (max-width: 1024px) {
+        .nanv ul {
+            display: none;
+        }
+
+        .topnav {
+            display: block;
+        }
+
+        .crumbs, .content {
+            width: 90%;
+            margin: 1% auto;
+        }
+
+        .box {
+            margin: 46px 30% 0 30%;
+
+        }
+    }
+@media screen and (max-width: 960px) {
+            .box {
+                margin: 46px 25% 0 25%;
+
+            }
+ }
+@media screen and (max-width: 768px) {
+    .box {
+        margin: 46px 20% 0 20%;
+
+    }
+    .log{
+        margin-left: 0;
+    }
+    .log img{
+        width: auto;
+    }
+}
+@media screen and (max-width: 680px) {
+    .box {
+        margin: 46px 15% 0 15%;
+
+    }
+}
+@media screen and (max-width: 580px){
+    .crumbs,.direction,.main h2{
+        width:100%
+    }
+    .box{
+        margin:46px 10px 0 10px;
+
+    }
+}
+@media screen and (max-width: 480px){
+    .direction{
+        height:100px;
+    }
+    .box{
+        margin:46px 0 0 0;
+
+    }
+
+}
+@media screen and (max-width: 380px){
+    .wrap{
+        width:380px;
+    }
+
+}

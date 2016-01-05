@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 540px;
+    font-family:" Microsoft YaHei",sans-serif;
+    color: white;
+}
+.top{
+    width: 100%;
+    float: left;
+    border-bottom:1px solid white;
+    background-color: deepskyblue;
+}
+.home{
+    width: 6%;
+    float: left;
+    padding-top: 0.5%;
+    padding-left: 1%;
+}
+.top p{
+    float: left;
+    width: 84%;
+    margin: 1% auto;
+    font-size: 2em;
+    text-align: center;
+}
+.help{
+    width: 6%;
+    float:right;
+    padding-top: 0.5%;
+    padding-right:3%;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+
+.middle{
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+.log{
+    width:100%
+    margin: 5% auto;
+    text-align: center;
+}
+.log p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: orange;
+}
+.list{
+    text-align: center;
+
+}
+.list p{
+    display: inline-block;
+    text-align: left;
+    line-height: 1%;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box{
+    text-align: left;
+    margin: 0;
+    border-bottom: solid darkgray 1px;
+}
+.box h1{
+    float: left;
+    color: black;
+    font-size: 1.5em;
+}
+.box span{
+    display:block;
+    float: right;
+    margin-top: 1%;
+    color: gainsboro;
+}
+.box p{
+    color: gray;
+   clear: both;
+}
+.footer{
+    background:rgba(15,220,255,0.5);
+    width: 540px;
+    height: 10vmin;
+    position: fixed;
+    bottom: 0;
+}
+.again{
+    background: #f66f6f;
+    float: left;
+    width: 40%;
+    margin:2% 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+.again p{
+    padding:5% 10%;
+
+}
+.share{
+    background: #fbb435;
+    float: left;
+    width: 40%;
+    margin:2% 5%;
+    text-align: center;
+    border-radius: 10px;
+}
+.share p{
+    padding: 5% 10%;
+}

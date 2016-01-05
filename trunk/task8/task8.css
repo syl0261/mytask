@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.wrap{
+    margin: 0 auto;
+    width: 100%;
+    font-family:" Microsoft YaHei",sans-serif;
+}
+.head{
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+}
+.head p{
+    width: 55%;
+    height: 2.5em;
+    text-align: center;
+    margin-top: 1%;
+    float: left;
+}
+.right{
+    width: 30%;
+    margin-top: 1%;
+    float: right;
+}
+.imgs{
+    width: 100%;
+}
+/*菜单1*/
+.nanv{
+    width: 100%;
+    overflow: hidden;
+    background-color: #29b078;
+}
+.nanv ul{
+    width: 40%;
+    padding:0 8% 0 62%;
+}
+.nanv li{
+    height: 4.3em;
+    line-height: 4.3em;
+    padding: 0 1.5em;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.nanv a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.nanv li:hover{
+    border-bottom: #ffffff solid 3px;
+}
+.log{
+    float: left;
+    width: 20%;
+    margin-left:18%;
+    padding-top: 1.5%;
+}
+.log img{
+    width:100%
+}
+/*菜单2*/
+.topnav{
+    display: none;
+    float:right;
+}
+#sub{
+    display:none;
+    text-align: center;
+    background-color: #29b078;
+}
+#sub a:link{
+   text-decoration:none;
+    color:white;
+}
+
+#sub li{
+    height: 2em;
+    line-height: 2em;
+    border-bottom: #ffffff solid 1px;
+    width: 100%;
+}
+/*头部完成*/
+.main{
+    margin: 0 auto;
+    background-color: #fafafa;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15%;
+}
+.title{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid gainsboro;
+}
+.banner{
+    width:100% ;
+}
+.banner img{
+    width: 100%;
+}
+.crumbs{
+    width: 76%;
+    margin:1% 12%;
+    font-size: 0.9em;
+}
+.crumbs a{
+    text-decoration:none;
+}
+.crumbs a:visited{
+    color: #29b078;
+}
+.content{
+    width: 76%;
+    margin:1% 12%;
+}
+.subnav{
+    float: left;
+    width: 22%;
+    border: 1px solid gainsboro;
+    background-color:#ffffff ;
+}
+.subnav ul{
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: disc;
+    list-style-image:url("images/oround1.png");
+    list-style-position: inside;
+}
+.subnav li{
+    font-size: 0.9em;
+    color:  #29b078;
+    height: 4em;
+    line-height: 4em;
+    text-align: left;
+    padding-left: 35%;
+}
+.subnav li:hover{
+    list-style-image:url("images/oround2.png");
+}
+.introduce{
+    float: right;
+    width: 73%;
+    margin-left: 1.6%;
+    border: 1px solid gainsboro;
+    background-color:#ffffff ;
+    font-size: 0.8em;
+    padding-bottom:10%;
+}
+.introduce ul{
+    width: 80%;
+    padding: 1% 10%;
+}
+.introduce li{
+    padding-top:5%;
+    text-indent: 2em;
+    line-height:2em;
+}
+.abstract{
+    width: 80%;
+    padding: 1% 10%;
+    height: 6.25em;
+    border-bottom:1px solid gainsboro;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+.logs{
+    float: left;
+    width: 20%;
+    padding-top: 1.5em;
+}
+.logs img{
+    width: 100%;
+}
+.abstract span{
+    float: right;
+    width: 79%;
+}
+/*主体完成*/
+.foot{
+    width: 100%;
+}
+.foot ul{
+    width: 76%;
+    margin: 1% 12%;
+    overflow: hidden;
+
+}
+.foot li{
+    float: left;
+    width: 10%;
+    list-style-type: disc;
+}
+.about{
+    width: 76%;
+    padding: 0 12%;
+    margin: 0;
+    background-color: #29b078;
+    overflow: hidden;
+    color: #ffffff;
+}
+.big{
+    float: left;
+    font-size: 1.2em;
+    width: 100%;
+}
+.lefoot{
+    display: inline-block;
+    float: left;
+    width: 30% ;
+    line-height: 5em;
+}
+.lefoot li{
+    float: left;
+    width: 100%;
+    line-height: 20px;
+}
+.website{
+    float: left;
+    width: 60%;
+    line-height: 3em;
+}
+.website li{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+.Qrcode{
+    float: left;
+    width: 10%;
+    padding-top: 3em;
+}
+.copyright{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+/*页尾完成*/
+/*响应式布局*/
+@media screen and (max-width: 1180px){
+    .abstract {
+        height:7.5em;
+        font-size: 0.1em;
+    }
+}
+@media screen and (max-width: 1024px){
+    .nanv ul{
+        display:none;
+    }
+    .topnav{
+        display: block;
+    }
+    .crumbs,.content{
+        width:90%;
+        margin:1% auto;
+    }
+    .subnav {
+        width:100%
+    }
+    .subnav li{
+        float:left;
+        padding-left:2%;
+    }
+    .introduce{
+        margin:1% 0;
+        width:100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .abstract{
+        height:8%;
+    }
+    .abstract span{
+        width:100%;
+    }
+    .log{
+        margin-left: 0;
+    }
+    .log img{
+        width: auto;
+    }
+    .logs{
+        width:100%
+    }
+    .logs img{
+        width:auto
+    }
+}
+@media screen and (max-width: 480px){
+    .lefoot,.website,.Qrcode{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 360px){
+   .wrap{
+       width: 360px;
+   }
+}
